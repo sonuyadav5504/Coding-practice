@@ -1,0 +1,6 @@
+s="d5a2c1"
+for i in range(0,len(s),2):
+    y=int(s[i+1])
+    for j in range(0,y):
+        print(s[i],end="")
+        
